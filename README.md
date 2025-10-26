@@ -45,8 +45,11 @@ the smallest set of roads that connects all districts.
 ###  Results
 
 | Graph ID | Vertices | Edges | Prim Cost | Kruskal Cost | Prim Ops | Kruskal Ops | Prim Time (ms) | Kruskal Time (ms) |
+
 |-----------|-----------|--------|------------|---------------|------------|----------------|--------------------|
+
 | 1 | 5 | 7 | 16 | 16 | 18 | 42 | 0.018 | 0.027 |
+
 | 2 | 10 | 13 | 33 | 33 | 36 | 97 | 0.018 | 0.014 |
 
  Both algorithms found the same MST cost, so they are correct.
